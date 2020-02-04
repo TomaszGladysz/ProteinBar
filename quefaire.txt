@@ -1,0 +1,16 @@
+homepage
+
+
+
+images swiper
+
+image de fond qui bouge pas, propriété background "paralax"
+
+menu en bas fixé
+
+il s'arrete avant la fin
+
+Menu principal 
+
+page Menu
+tri sur page menu

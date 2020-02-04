@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1db7be8f13.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="toggleMenu">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="nav">
+        <img src="img/lLXakZdwSQ6uVE7qz82h_pbklogo1.png" alt="Logo">
+        <div class="menu" id="monMenu">
+            <div class="menu_list">
+                <lu>
+                    <li>Location</li>
+                    <li>Menu</li>
+                    <li>Story</li>
+                    <li>Catering</li>
+                    <li>Rewards</li>
+                    <li>Press</li>
+                    <li>Franchise</li>
+                    <li>Pro-Team</li>
+                    <li>Contact</li>
+                    <li>Careers</li>
+                    <li>Order Online</li>
+                    <li>Email Singup</li>
+                </lu>
+            </div>
+            <div class="menu_social">
+                <hr style="width: 90vw; border: 2px solid #b1d235; margin-bottom: 20px;">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div> 
+
+            <div class="menu_credits">
+                POWERED BY TOMASZ GLADYSZ
+            </div>
+        </div> 
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(img/97459Website_Breakfast_20.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(img/88332BentoBox_franchise4.jpg)"></div>
+          <div class="swiper-slide" style="background-image:url(img/63846Website_BeyondMeat.jpg)"></div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-white"></div>
+    </div>
+
+    <div class="protein_power">
+        <div class="protein_wrap">
+            <h3>
+                Protein is Power
+            </h3>
+            <p>
+                Every diet needs protein for all <br>day brain and body energy
+            </p>
+            <button>View Menus</button>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      effect: 'fade',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+</script>
+
+<script src="js/main.min.js">
+</script>
+</html>
