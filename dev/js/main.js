@@ -12,3 +12,24 @@ monBouton.addEventListener('click',function (){
 
 
 
+var swiper = new Swiper('.swiper-container', {
+  spaceBetween: 30,
+  effect: 'fade',
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+
+$('button').click(function(){
+  var cache = $(this).attr('data-filter');
+  $('button').removeClass('active_tri');
+  $(this).addClass('active_tri');
+  $('.cathegorie').hide();
+  $('.' + cache + '').show();
+})
